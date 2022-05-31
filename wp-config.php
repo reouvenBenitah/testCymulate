@@ -36,8 +36,8 @@ define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
-// define('WP_SITEURL', 'https://b73c-93-172-243-221.eu.ngrok.io/testCymulate');
-// define('WP_HOME', 'https://b73c-93-172-243-221.eu.ngrok.io/testCymulate');
+// define('WP_SITEURL', 'https://53f3-93-172-243-221.eu.ngrok.io');
+// define('WP_HOME', 'https://53f3-93-172-243-221.eu.ngrok.io');
 
 /**#@+
  * Authentication unique keys and salts.

@@ -3,13 +3,18 @@
     get_header() ?>
 
     <?php
+    include DIR_TEMPLATE  . '/tp/tp_header.php';
+
+    ?>
+
+    <div class="h"></div>
+    <?php
     if (is_home()) {
-        include DIR_TEMPLATE  . '/tp/tp_header.php';
+
         include_once DIR_TEMPLATE  . '/tp/tp_slide.php';
         include_once DIR_TEMPLATE  . '/tp/tp_main.php';
     }
     ?>
-    <div class="h"></div>
     <?php
     include_once DIR_TEMPLATE  . '/tp/tp_slide_footer.php';
     ?>
@@ -19,7 +24,7 @@
 
 <style>
     .h {
-        height: 120px;
+        height: 110px;
     }
 
     body {

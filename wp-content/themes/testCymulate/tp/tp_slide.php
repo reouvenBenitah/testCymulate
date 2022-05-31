@@ -27,9 +27,9 @@
 
     #content-slide {
         background-image: url('wp-content/themes/testCymulate/assets/images/Desktop/Desktop_hero.png');
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        margin-top: 110px;
+        /* margin-top: 110px; */
         height: 600px;
         width: 100%;
 
@@ -95,10 +95,9 @@
 
     @media only screen and (max-width: 1120px) {
         #content-slide {
-            background-image: url('wp-content/themes/testCymulate/assets/images/Mobile/Mobile_hero.png');
-            background-size: cover;
+            background-image: url('wp-content/themes/testCymulate/assets/images/Desktop/Desktop_hero.png');
+            background-size: contain;
             background-repeat: no-repeat;
-            margin-top: 110px;
             padding: 98px 20px 20px;
             height: 617px;
         }
@@ -110,7 +109,6 @@
             background-image: url('wp-content/themes/testCymulate/assets/images/Mobile/Mobile_hero.png');
             background-size: contain;
             background-repeat: no-repeat;
-            margin-top: 110px;
             padding: 98px 20px 20px;
             height: 600px;
         }
